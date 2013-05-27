@@ -1,6 +1,6 @@
 class SearchDicItemResult
   require "rexml/document"
-  require "./data/dic_item_title"
+  require_relative "./dic_item_title"
 
   ERROR_MESSAGE = "/SearchDicItemResult/ErrorMessage"
   TOTAL_HIT_COUNT = "/SearchDicItemResult/TotalHitCount"

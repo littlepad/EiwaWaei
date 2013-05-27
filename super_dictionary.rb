@@ -2,7 +2,7 @@ class SuperDictionary
   require "uri"
   require "open-uri"
   require "rexml/document"
-  require "./data/search_dic_item_result"
+  require_relative "./data/search_dic_item_result"
 
   SEARCH_ITEM_URL = "http://public.dejizo.jp/NetDicV09.asmx/SearchDicItemLite?"
   GET_ITEM_URL = "http://public.dejizo.jp/NetDicV09.asmx/GetDicItemLite?"

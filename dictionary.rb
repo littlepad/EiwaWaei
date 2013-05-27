@@ -1,5 +1,5 @@
-require "./eiwa"
-require "./waei"
+require_relative "./eiwa"
+require_relative "./waei"
 
 case ARGV[0]
   when "eiwa"

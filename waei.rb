@@ -1,4 +1,4 @@
-require "./super_dictionary"
+require_relative "./super_dictionary"
 
 class Waei < SuperDictionary
   DIC = "EdictJE"

@@ -1,4 +1,4 @@
-require "./super_dictionary"
+require_relative "./super_dictionary"
 
 class Eiwa < SuperDictionary
   DIC = "EJdict"
